@@ -5,8 +5,11 @@
 public class DoMath {
 
 	public static void main(String[] args) {
-		System.out.println(Calculate.square(2));
-		System.out.println(Calculate.cube(2));
+		System.out.println(Calculate.square(-2));
+		System.out.println(Calculate.cube(-2));
+		System.out.println(Calculate.average(2, 4));
+		System.out.println(Calculate.average(2, 4, 6));
+		System.out.println(Calculate.toDegree(3.14159));
 
 	}
 
