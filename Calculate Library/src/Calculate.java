@@ -1,3 +1,4 @@
+  
 //Nicolina Sandoval
 //APCS 3rd
 //August 29,2019
@@ -27,21 +28,46 @@ public class Calculate {
 		return answer;
 	}
 	public static double toDegrees(double number) {
-		//A call to toDegrees converts an angle measure from radians to degrees. The method accepts a doubles and returns a double.
+		//A call to toDegrees converts an angle measure from radian to degrees. The method accepts a doubles and returns a double.
 		double answer =0;
 		answer = number * 180 /3.14159;
 		return answer;
 	}
 	public static double toRadians(double number) {
-		//A call to toRadians converts an angle measure from degrees to radians. The method accepts a doubles and returns a double.
+		//A call to toRadians converts an angle measure from degrees to radian. The method accepts a doubles and returns a double.
 		double answer =0;
 		answer = number * 3.14159 /180;
 		return answer;
 	}
 	public static int toImproperFrac(int numberx, int numbery, int numberz) {
-		//A call to toRadians converts an angle measure from degrees to radians. The method accepts a doubles and returns a double.
-		double answer =0;
-		answer = number * 3.14159 /180;
-		return answer;
+		//A call to toImproperFrac converts mixed numbers into fractions.
+		int answer =0;
+		answer = numberx * numberz + numbery;
+		return answer; //needs denominator
 	}
-}
+	public static int toMixedNum(int numberx, int numbery) {
+		//converts fractions into mixed numbers.
+		int answer =0;
+		answer = numberx/numbery;
+		return answer; //needs denominator
+	}
+	public static int foil(int numberw, int numberx, int numbery, int numberz) { //unfinished
+		//converts a binomial multiplication ((ax=b)(cx=d)) into a quadratic equation (ax^2+bx+c).
+		int variablea =1;
+		int variableb =2;
+		int variablec =3;
+		int answer =0;
+		variablea = (numberw * numbery);
+		variableb = (numberw * numberz) + (numberx * numbery);
+		variablec = (numberx * numberz);
+		answer = variablea  + variableb  + variablec;
+		return answer; 
+	}
+	public static boolean isDivisibleBy(int A, int B) {
+		for(int )
+		
+	}
+		
+	}
+	
+
