@@ -39,16 +39,16 @@ public class Calculate {
 		answer = number * 3.14159 /180;
 		return answer;
 	}
-	public static int toImproperFrac(int numberx, int numbery, int numberz) {
+	public static int toImproperFrac(int number, int num, int denom) {
 		//A call to toImproperFrac converts mixed numbers into fractions.
 		int answer =0;
-		answer = numberx * numberz + numbery;
-		return answer; //needs denominator
+		answer = (number/denom) + num;
+		return answer '/' denom;
 	}
-	public static int toMixedNum(int numberx, int numbery) {
+	public static int toMixedNum(int num, int denom) {
 		//converts fractions into mixed numbers.
 		int answer =0;
-		answer = numberx/numbery;
+		answer = num/denom;
 		return answer; //needs denominator
 	}
 	public static int foil(int numberw, int numberx, int numbery, int numberz) { //unfinished
@@ -63,8 +63,11 @@ public class Calculate {
 		answer = variablea  + variableb  + variablec;
 		return answer; 
 	}
-	public static boolean isDivisibleBy(int A, int B) {
-		for(int )
+	public static boolean isDivisibleBy(int A, int B) 
+		if(int A/int B==%0) {
+			return true;
+		}		
+		return false;
 		
 	}
 		
