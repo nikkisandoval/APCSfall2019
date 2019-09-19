@@ -43,13 +43,15 @@ public class Calculate {
 		//A call to toImproperFrac converts mixed numbers into fractions.
 		int answer =0;
 		answer = (number/denom) + num;
-		return answer '/' denom;
+		return answer + '/' + denom;
 	}
 	public static int toMixedNum(int num, int denom) {
 		//converts fractions into mixed numbers.
 		int answer =0;
 		answer = num/denom;
-		return answer; //needs denominator
+		int rem =0;
+		rem =num%denom;
+		return answer + rem + '/' + denom; //needs denominator
 	}
 	public static int foil(int numberw, int numberx, int numbery, int numberz) { //unfinished
 		//converts a binomial multiplication ((ax=b)(cx=d)) into a quadratic equation (ax^2+bx+c).
@@ -63,14 +65,50 @@ public class Calculate {
 		answer = variablea  + variableb  + variablec;
 		return answer; 
 	}
-	public static boolean isDivisibleBy(int A, int B) 
-		if(int A/int B==%0) {
+	/*
+	public static boolean isDivisibleBy(int numx, int numy) { 
+	//determines whether or not one integer is evenly divisible by another
+		int numx = 1;
+		int numy = 2;
+		if(numx/numy % == 0) {
 			return true;
-		}		
-		return false;
-		
+		}
+		else {
+			return false;
+		}	
 	}
-		
+	public static double absValue(double num) {
+		//returns the absolute value of a number
+		double num = 0;
+		if(num >= 0) {
+			return num;
+		}
+		else { 
+			return num * -1;
+		}
 	}
+	public static double max(double a, double b) {
+		//returns the larger of 2 values
+		double a = 1;
+		double b = 2;
+		if(a>b) {
+			return a;
+		}
+		else {
+			return b;
+		}
+	}
+	public static int min(int a, int b) {
+		//returns the smaller of 2 values
+		int a = 1;
+		int b = 2;
+		if(a<b) {
+			return a;
+		}
+		else {
+			return b;
+		}
+	}*/
+}
 	
 
