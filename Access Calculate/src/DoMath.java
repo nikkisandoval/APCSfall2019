@@ -11,6 +11,12 @@ public class DoMath {
 		System.out.println(Calculate.toDegrees(3.1415));
 		System.out.println(Calculate.toRadians(180));
 		System.out.println(Calculate.toImproperFrac(1, 1, 2));
+		System.out.println(Calculate.toMixedNum(3, 2));
+		System.out.println(Calculate.isDivisibleBy(2, 3));
+		System.out.println(Calculate.absValue(-1));
+		System.out.println(Calculate.max(1, 2));
+		System.out.println(Calculate.min(1, 2));
 	}
 
 }
+

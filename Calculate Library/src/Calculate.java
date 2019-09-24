@@ -1,4 +1,3 @@
-  
 //Nicolina Sandoval
 //APCS 3rd
 //August 29,2019
@@ -39,13 +38,13 @@ public class Calculate {
 		answer = number * 3.14159 /180;
 		return answer;
 	}
-	public static int toImproperFrac(int number, int num, int denom) {
+	public static int toImproperFrac(int number, int num, int denom) { //unfinished
 		//A call to toImproperFrac converts mixed numbers into fractions.
 		int answer =0;
-		answer = (number/denom) + num;
-		return answer + '/' + denom;
+		answer = number/denom + num;
+		return (answer) + '/' + (denom);
 	}
-	public static int toMixedNum(int num, int denom) {
+	public static int toMixedNum(int num, int denom) { //unfinished
 		//converts fractions into mixed numbers.
 		int answer =0;
 		answer = num/denom;
@@ -65,21 +64,19 @@ public class Calculate {
 		answer = variablea  + variableb  + variablec;
 		return answer; 
 	}
-	/*
-	public static boolean isDivisibleBy(int numx, int numy) { 
+	
+	public static boolean isDivisibleBy(int a, int b) { 
 	//determines whether or not one integer is evenly divisible by another
-		int numx = 1;
-		int numy = 2;
-		if(numx/numy % == 0) {
+		if(a%b == 0) {
 			return true;
 		}
 		else {
 			return false;
 		}	
 	}
+	
 	public static double absValue(double num) {
 		//returns the absolute value of a number
-		double num = 0;
 		if(num >= 0) {
 			return num;
 		}
@@ -89,8 +86,6 @@ public class Calculate {
 	}
 	public static double max(double a, double b) {
 		//returns the larger of 2 values
-		double a = 1;
-		double b = 2;
 		if(a>b) {
 			return a;
 		}
@@ -98,17 +93,35 @@ public class Calculate {
 			return b;
 		}
 	}
-	public static int min(int a, int b) {
+	public static double min(double a, double b) {
 		//returns the smaller of 2 values
-		int a = 1;
-		int b = 2;
 		if(a<b) {
 			return a;
 		}
 		else {
 			return b;
 		}
-	}*/
+	}
+	/*
+	public static double round2(double a) {
+		//returns the smaller of 2 values
+		if() {
+			return ;
+		}
+		else {
+			return ;
+		}
+	}
+	
+	public static int isPrime(int a) {
+		//returns the smaller of 2 values
+		if(a<b) {
+			return a;
+		}
+		else {
+			return b;
+		}
+	}
+	*/
 }
 	
-
