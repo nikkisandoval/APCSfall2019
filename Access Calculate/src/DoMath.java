@@ -16,6 +16,7 @@ public class DoMath {
 		System.out.println(Calculate.absValue(-1));
 		System.out.println(Calculate.max(1, 2));
 		System.out.println(Calculate.min(1, 2));
+		System.out.println(Calculate.exponent(2, 2));
 	}
 
 }

@@ -2,6 +2,7 @@
 //APCS 3rd
 //August 29,2019
 public class Calculate {
+	//pt.1 
 	public static int square(int number) {
 		//A call to square returns the square of the value passed. The method accepts an integer and returns an integer.
 		int answer =0;
@@ -65,6 +66,7 @@ public class Calculate {
 		return answer; 
 	}
 	
+	//pt.2
 	public static boolean isDivisibleBy(int a, int b) { 
 	//determines whether or not one integer is evenly divisible by another
 		if(a%b == 0) {
@@ -112,16 +114,50 @@ public class Calculate {
 			return ;
 		}
 	}
+	*/
 	
-	public static int isPrime(int a) {
-		//returns the smaller of 2 values
-		if(a<b) {
-			return a;
+	//pt.3
+	/*
+	public static double exponent(double a, int b) {
+    	int m=1;
+		while(m==b+1) {
+        System.out.println(a+"^"+m+"= "+b);
+        b=(int) (b*a);	
 		}
-		else {
-			return b;
-		}
+		m++;
+		return m;			
 	}
 	*/
+	public static double exponent(double a, int b) {
+	 double answer = 1.0;
+	    if(b > 0)
+	    {
+	        for(int i = 1 ; i <= b ; i++)
+	        {
+	            answer *= a;
+	        }
+	    } 
+	    else 
+	    {
+	        for(int i = -1 ; i >= b ; i--)
+	        {
+	            answer /= a;
+	        }
+	    }
+	    return answer;
+	}
+
+	/*
+	public static int factorial(int a) {
+			
+					
+	}
+	*/
+/*
+	public static boolean isPrime(int a) {
+		while()
+			
+	*/				
+		
 }
 	
