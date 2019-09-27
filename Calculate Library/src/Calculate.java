@@ -117,17 +117,6 @@ public class Calculate {
 	*/
 	
 	//pt.3
-	/*
-	public static double exponent(double a, int b) {
-    	int m=1;
-		while(m==b+1) {
-        System.out.println(a+"^"+m+"= "+b);
-        b=(int) (b*a);	
-		}
-		m++;
-		return m;			
-	}
-	*/
 	public static double exponent(double a, int b) {
 	 double answer = 1.0;
 	    if(b > 0)
