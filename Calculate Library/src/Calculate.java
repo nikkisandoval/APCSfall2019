@@ -142,11 +142,9 @@ public class Calculate {
 					
 	}
 	*/
-/*
 	public static boolean isPrime(int a) {
-		while()
+		if()
 			
-	*/				
-		
+	}	
 }
 	
