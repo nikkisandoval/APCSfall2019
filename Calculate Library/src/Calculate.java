@@ -142,9 +142,16 @@ public class Calculate {
 					
 	}
 	*/
+	/*
 	public static boolean isPrime(int a) {
-		if()
+		int i=1;
+		 while(i <= a/2)
+		 {
 			
-	}	
+		}
+	}
+	*/
+	public static int gcf(int a, int b) {
+	
 }
 	
