@@ -135,6 +135,7 @@ public class Calculate {
 	    }
 	    return answer;
 	}
+}
 
 	/*
 	public static int factorial(int a) {
@@ -151,7 +152,5 @@ public class Calculate {
 		}
 	}
 	*/
-	public static int gcf(int a, int b) {
-	
-}
+
 	
